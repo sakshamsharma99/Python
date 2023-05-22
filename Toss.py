@@ -1,8 +1,5 @@
 import random
 
-toss = random.randint(0,1)
+toss = ["Head","Tail"]
 
-if toss == 0:
-    print("Head")
-else:
-    print("tail")
+print(random.choice(toss))
