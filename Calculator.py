@@ -19,7 +19,7 @@ print(
 )
 continue_loop = True
 while continue_loop != False:    
-    n1 = int(input("What's the first number?: "))
+    n1 = float(input("What's the first number?: "))
     print('''
     +
     -
@@ -31,7 +31,7 @@ while continue_loop != False:
                    
         operator = input("Pick an operation: ")
 
-        n2 = int(input("What's the next number?: "))
+        n2 = float(input("What's the next number?: "))
         solution = 0
         if operator == '-':
             solution = n1 - n2
